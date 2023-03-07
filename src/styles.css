@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.borderColor {
+  border-color: gray;
+  border-width: 0.5px;
+  border-radius: 5px;
+}
