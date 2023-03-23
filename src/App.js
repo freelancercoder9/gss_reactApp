@@ -1,8 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { LoginScreen } from "./screens/LoginScreen";
 
 function App() {
-  return <h1 className="text-3xl font-bold text-red-600 underline">Hello world!</h1>;
+  return (
+    <div className="" style={{ height: "100vh " }}>
+      <LoginScreen></LoginScreen>;
+    </div>
+  );
 }
 
 export default App;
